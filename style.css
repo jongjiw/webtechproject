@@ -1,0 +1,123 @@
+/* font */
+@font-face {
+    font-family: thai-cloud;
+    src: url("font/Cloud-Light.otf");
+}
+@font-face {
+    font-family: thai-quark;
+    src: url("font/Quark-Light.otf");
+}
+@font-face {
+    font-family: thai-sukhum;
+    src: url("font/sukhumvitset-thin-webfont.ttf");
+}
+@font-face {
+    font-family: thai-sukhumbold;
+    src: url("font/sukhumvitset-medium-webfont.ttf");
+}
+@font-face {
+    font-family: eng-paulslab;
+    src: url("font/PaulSlab-Regular-Trail.otf");
+}
+@font-face {
+    font-family: thsaraban-bold;
+    src: url("font/THSARABUN_BOLD.ttf");
+}
+@font-face {
+    font-family: thsaraban;
+    src: url("font/THSARABUN.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #96aa97;
+    font-family: thsaraban;
+    font-size: 24px;
+}
+
+header {
+    max-width: 100%;
+    height: 50vh;
+    background-image: url(pic/headerv11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(8, 122, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: thai-sukhumbold;
+    font-size: 48px;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    background: #96aa97;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.left-nav {
+    width: 25%;
+    height: 100%;
+    background: white;
+    padding: 15px;
+    margin-top: 30px;
+    float: left;
+}
+
+ul { 
+    list-style:none;
+}
+li {
+    list-style:none;
+    padding-left: 10px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.data {
+    width: 68%;
+    height: 100%px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    float: left;
+}
+
+p.subject {
+    font-size: 30px;
+}
+
+.colorsj {
+    color:#50a354;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 30px;
+    max-width: 100%;
+    height: 70px;
+    background: #759b77;
+}
