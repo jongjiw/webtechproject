@@ -76,6 +76,14 @@ h1 {
     margin-top: 30px;
     float: left;
 }
+a {
+    color:inherit;
+    text-decoration: none;
+ }
+
+a:hover {
+    color: rgb(79, 189, 79);
+}
 
 ul { 
     list-style:none;
