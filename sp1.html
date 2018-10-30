@@ -12,7 +12,7 @@
 <body>
     <header><h1>พฤกษศาสตร์สำหรับชีววิทยาระดับมัธยมศึกษาตอนปลาย</h1></header>
     <div class="container">
-        <div class="left-nav">
+        <div class="left-nav header" id="myHeader">
             <p><b><a href="#">ขิง</a></b></p>
         <hr noshade>
             <p><b><a href="#">แพค</a></b></p>
@@ -192,5 +192,20 @@
         <div class="clearfix"></div>
     </div>
     <footer></footer>
+
+    <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+    </script>
 </body>
 </html>
