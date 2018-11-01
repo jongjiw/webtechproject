@@ -1,11 +1,11 @@
 @font-face{
     font-family: Luna;
-    src: url(../font/Luna.ttf);
+    src: url(font/Luna.ttf);
 }
 
 @font-face{
     font-family: ek;
-    src: url(../font/ekamai.ttf);
+    src: url(font/ekamai.ttf);
 }
 
 body{
