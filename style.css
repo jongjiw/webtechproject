@@ -19,14 +19,6 @@
     font-family: eng-paulslab;
     src: url("font/PaulSlab-Regular-Trail.otf");
 }
-@font-face {
-    font-family: thsaraban-bold;
-    src: url("font/THSARABUN_BOLD.ttf");
-}
-@font-face {
-    font-family: thsaraban;
-    src: url("font/THSARABUN.ttf");
-}
 
 * {
     margin: 0;
