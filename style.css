@@ -27,6 +27,9 @@
 
 html {
     background: #96aa97;
+    background-image: url(pic/bg5.jpg); /* 5 กับ 8 ok*/
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: thai-sukhum;
     /* font-size: 24px; */
 }
@@ -39,7 +42,7 @@ header {
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    color: rgb(8, 122, 84);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +56,8 @@ h1 {
 .container {
     max-width: 85%;
     margin: 0px auto;
-    background: #96aa97;
+    /* background: #96aa97; */
+    backface-visibility: hidden;
 }
 
 .clearfix {
@@ -137,7 +141,7 @@ p.subject {
 footer {
     margin-top: 30px;
     max-width: 100%;
-    height: 70px;
-    background: #759b77;
+    height: 100px;
+    background: #000000;
 }
 
