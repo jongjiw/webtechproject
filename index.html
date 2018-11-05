@@ -1,143 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-  
-  <div id="box1" class="block">
-
-    <div class="head1" id="">
-
-      <h1 style="font-size:3em;">Batony</h1>
-      <br>
-      <p style="font-size:1.5em;">@Biology</p>
-
-      <div class="social">
-       <button onclick="scrolldown()">Go</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .loa{
+            position: absolute;
+            top: 25%;
+            left: 75%;
+            transform: translate(-50%, -50%);
+        }
+        .loa h1{
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-size: 7em;
+            color: rgba(255,255,255,.1);
+            background-image: url(water.png);
+            background-repeat: repeat-x;
+            -webkit-background-clip: text;
+            animation: anime 10s linear infinite;
+            font-family: 'Righteous', cursive;
+        }
         
-      </div>
-    </div>
-  </div>
-
-  <div id="box2" class="block">
-    <div class="head1">
-      <div class="pic1">
-
-      </div>
-      <h1>พันธุศาสตร์คืออะไร</h1>
-      <div class="history">
-        <h2>นิยาม</h2>
-        <p> เป็นสาขาวิชาหนึ่งของชีววิทยา ที่ศึกษาเกี่ยวกับพืชและการเจริญเติบโต ศึกษาทั้งในด้านโครงสร้าง 
-          <br>การเจริญเติบโต การสืบพันธุ์ เมแทบอลิซึม โรค และคุณสมบัติทางเคมีและความสัมพันธ์ทางวิวัฒนาการระหว่างกลุ่มต่าง ๆ</p>
-      </div>
-      <div class="symbols">
-        <h2>ประโยชน์ในการศึกษา</h2>
-        <p> เกิดความรู้ในการผลิตวัสดุต่างๆ และยารักษาโรคหรือสารที่มีผลต่อประสาท อย่างเช่น กัญชา คาเฟอีน และนิโคติน 
-        <br>ส่วนใหญ่แล้วได้มาจากพืชโดยตรง ตัวอย่างเช่น ยาแอสไพริน ซึ่งสกัดจากสารจากเปลือกของต้นหลิว 
-        <br>หรือเครื่องดื่มที่นิยมอย่างกาแฟ ช็อคโกแลต และชา ก็มาจากพืชเช่นกัน  </p>
-      </div>
-    </div>
-
-  </div>
-
-  <div id="box3" class="block">
-    <h1>หัวข้อต่างๆ</h1>
-    <p>การเรียนรู้ที่สามารถเลือกสรรเองได้</p>
-    <div class="img_to_content">
-        <div class="img-all img1">
-          <a href="flower.html">
-            <img src="pic/1.jpg" alt="">
-            <div class="text">
-              <h2>โครงสร้างและหน้าที่ของพืชมีดอก</h2>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="img-all img2">
-          <a href="light.html">
-            <img src="pic/2.jpg" alt="">
-            <div class="text">
-              <h2>กระบวนการสังเคราะห์ด้วยแสง</h2>
-            </div>
-          </a>
-        </div>
-
-        <div class="img-all img3">
-          <a href="sp1.html">
-            <img src="pic/3.jpg" alt="">
-            <div class="text">
-              <h2>การสืบพันธุ์<br>ของพืชดอก</h2>
-            </div>
-          </a>
-        </div>
-
-        <div style="clear:both"></div>
-
-
-        <div class="img-all img5">
-          <a href="refact.html">
-            <img src="pic/4.jpg" alt="">
-            <div class="text">
-              <h2>การตอบสนอง<br>ของพืช</h2>
-            </div>
-          </a>
-        </div>
-
-
-        <div class="img-all img6">
-          <a href="#">
-            <img src="pic/5.png" alt="">
-          </a>
-          <div class="text">
-            <h2>Contact Us</h2>
-          </div>
-        </div>
-
-        <div style="clear:both"></div>
-    </div>
-  </div>
-
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
+        @keyframes anime{
+            0%{
+                background-position: left 0px top 80px;
+            }
+            40%{
+                background-position: left 800px top -50px;
+            }
+            80%{
+                background-position: left 1800px top -50px;
+            }
+            100%{
+                background-position: left 2400px top 80px;
+            }
+            
+        }
+        
+        .wave{
+            position: relative;
+            background: url(tree.jpg);
+            
+            height: 550px;
+        }
+        
+        .wave:before{
+            
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 233px;
+            background: url('wave.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+        }
+        
+        
+        
+        
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="script/JQUERY Main.js"></script>
+    <script src="script/jquery-1.10.2.min.js"></script>
+</head>
+<body>
     
-    </div>
-  </div>
-  <div class="copyright">
-    <div class="social">
-      <a href="https://www.instagram.com/_kkhinnng/">
-        <img src="pic/face.png" alt="" style="width: 35px;
-          height: 35px;">
-      </a>
-      <a href="https://www.facebook.com/khing.bcc?ref=bookmarks">
-        <img src="pic/ig.png" alt="" style="width: 35px;
-            height: 35px;">
-      </a>
+    <section class="wave">
+        <div class="menuIcon">
+            <div id="menuLine"></div>
+        </div>
+        <div class="mainMenu">
+            
+            <div id="logo">
+                <img src="leaf.png" height = "75px" width="75px" alt="">
+                
+            </div>
+            
+            <ul>
+                <li>หน้าหลัก <div class="line"></div></li>
+                <li>โครงสร้างพืชดอก <div class="line"></div></li>
+                <li>การสังเคราะห์แสง <div class="line"></div></li>
+                <li>การสืบพันธุ์ของพืชดอก <div class="line"></div></li>
+                <li>การตอบสนองของพืช<div class="line"></div></li>
+                
+            </ul>
+            <div id="close">
+                <img src="Close.png" height = "30px" width="30px" alt="">
+            </div>
+        </div>
+        <div class="loa">
+            <h1>Botany</h1>
+        </div>
+        
+    </section>
+    <section class="sep">
+        <div class="info">
+            <h1>พฤกษศาสตร์</h1>
+            
+        </div>
+    </section>
     
-    <p style="font-family:ek;">copyright นะจ้ะ เดี๋ยวใส่จ้ะ</p>
-  </div>
+    
+    
+    <script type="text/javascript">
+        function toggle(id){
+            var e = document.getElementById(id);
+            if(e.style.display == 'block')
+            e.style.display = 'none';
+            else 
+            e.style.display = 'block';
+            
+        }_
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".menuIcon").click(function(){
+                $(".mainMenu").css("left", "0px");
+                function showMenu(){
+                    $(".mainMenu").css("-webkit-clip-path", "polygon(0 0, 100% 0, 100% 100%, 0 100%)");
+                    $(".menuIcon").animate({right:'-100'}, 300);
+                }
+                setTimeout(showMenu, 100);
+            });
+            
+            $("#close").click(function(){
+                $(".mainMenu").css("-webkit-clip-path", "polygon(0 0, 0% 0, 100% 100%, 0 100%)");
+                function hideMenu(){
+                    $(".mainMenu").css("left", "-300px");
+                    $(".menuIcon").animate({right:'50'}, 300);
+                }
+                setTimeout(hideMenu, 300);
 
+                function original(){
+                    $(".mainMenu").css("-webkit-clip-path", "polygon(0 0, 100% 0, 0% 100%, 0 100%)");
+                }
+                setTimeout(original, 600);
+            })
 
-  <script>
-  
-  function scrolldown(){
-  document.querySelector("#box3").scrollIntoView({ 
-   behavior: "smooth" 
-  });
- }</script>
-
+        });
+    </script>
 </body>
-
 </html>
