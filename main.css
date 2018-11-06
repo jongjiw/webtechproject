@@ -1,22 +1,21 @@
-@font-face{
-    font-family: Luna;
-    src: url(font/Luna.ttf);
-}
 
-@font-face{
-    font-family: ek;
-    src: url(font/ekamai.ttf);
+.sep{
+    height: 250px;
+    background: #fff;
 }
+<<<<<<< HEAD
+
 
 body{
     
+=======
+.body{
+    height: 1000px;
+>>>>>>> 31a0088c3fccec83544896f00f73bca1794659bf
     margin: 0;
-    padding: 0;
-    font-family: Luna;
-    width: 100%;
-    background: whitesmoke;
+    background: #fff;
     
-
+<<<<<<< HEAD
 }
 
 button{
@@ -63,212 +62,164 @@ nav{
 #box2 p{
     width: 1200px;
     position: relative;
+=======
+>>>>>>> 31a0088c3fccec83544896f00f73bca1794659bf
 }
 
-#box3{
-    width: 100%;
-    background: whitesmoke;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: ek;
-    text-align: center;
-}
-
-#box3 h1{
-    text-align: center;
-    font-size: 50px;
-    position: relative;
-}
-#box3 p{
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-.head1{
-    font-size: 25px;
-    color: white;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin: 0;
-    text-align: center;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.516);
-
-}
-
-
-.logo{
-    position: relative;
-    transform: translateY(9px);
-    height: 50px;
-    left: 0;
-}
-
-.vl{
-    border-left: 120px solid black;
-    height: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.img_to_content{
-    width: 100%;
-    display: block;
-}
-
-.img-all {
-    float: left;
-    width: 33.33333333333333%;
-    height: 400px;
-    position: relative;
-    display: block;
-}
-
-.img-all .text {
-   
-    transform: translateY(100%);
-}
-
-.img-all:hover .text {
-    transform: translateY(0);
-}
-
-.img1{
-    /* transform: translate(120px, 100px); */
-    
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.img2{
-    /* transform: translate(520px, -200px); */
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.img3{
-    /* transform: translate(920px, -500px); */
-    cursor: pointer;
-    overflow: hidden;
-}
-
-
-.img5{
-    cursor: pointer;
-    overflow: hidden;
-    transform: translateX(50%);
-}
-.img6 img{
-    float: left;
-    height: 100%;
-}
-
-.img6{
-    cursor: pointer;
-    overflow: hidden;
-    transform: translateX(50%);
-}
-
-
-
-
-
-.text{
-    width:100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+.image{
+    width: 960px;
+    height: 733px;
+    background-image: url(tree.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
     position: absolute;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    overflow: hidden; 
-    transition: 0.7s ease;
-    bottom: 0;
+    left :50%;
 
 }
 
-.text h2{
+
+
+.wave{
     position: relative;
-    color: white;
-    font-size: 50px;
-    padding: 10px 30px;
-    text-align: center;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
-.utub{
-    font-family: ek;
-    background: whitesmoke;
-    position: relative;
+.foot{
+    background: #000;
+    height: 100px;
 }
 
-
-
-.utub h1{
-    font-size: 50px;
-    width: 100%;
-    height: 50px;
-    position: relative;
-    color: black;
-    text-align: center;
-    font-weight: bold;
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, 50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.571);
+    border-radius: 5px;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
 }
 
-.utub iframe{
-    position: relative;
-    margin: auto !important;
+.menuIcon{
+    height: 25px;
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+.menuIcon:hover{
+    cursor: pointer;
+}
+#menuLine{
+    height: 4px;
+    width: 50px;
+    background-color: #ffffff97;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    transition: all .3s;
+}
+.menuIcon:hover #menuLine{
+    
+    width: 30px;
 }
 
-.utub p{
-    font-size: 25px;
-    position: relative;
-    color: black;
-    text-align: left;
-    margin: auto;
-    padding: 2em;
-}
-
-.copyright{
-    background: black;
-    color: white;
-    width: 100%;
-    height: 150px;
-    padding: 1em 2em;
-}
-
-.copyright .social{
-    position: relative;
+#menuLine::before{
+    content: '';
+    height: 4px;
+    width: 40px;
+    background-color: #ffffff97;
+    position: absolute;
     margin-top: 10px;
+    transition: all .3s;
+
 }
 
-.block {
-    display: block;
-    position: relative;
+.menuIcon:hover #menuLine::before{
+    width: 50px;
 }
 
-.history p, .symbols p {
-    display: inline;
+
+#menuLine::after{
+    content: '';
+    height: 4px;
+    width: 40px;
+    background-color: #ffffff97;
+    position: absolute;
+    margin-top: -10px;
+    transition: all .3s;
+}
+
+.menuIcon:hover #menuLine::after{
+    width: 50px;
+}
+
+.mainMenu{
+    height: 100vh;
+    width: 300px;
+    background-color: #181818;
+    -webkit-clip-path: polygon(0 0, 100% 0, 0% 100%, 0% 100%);
+    position: fixed;
+    top: 0;
+    left: -300px;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+ul li{
+    margin: 20px;
+}
+ul li:hover{
+    cursor: pointer;
+}
+
+.line{
+    height: 2px;
+    width: 150px;
+    background-color: white;
     margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all .3s;
 }
 
-.divide {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+ul li:hover .line{
+    width: 200px;
 }
 
-.video {
-    width: 95vw;
-    height: 500px;
-    margin: 0 auto;
+#logo{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+
 }
 
-.video-wall {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#close{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#close:hover{
+    cursor: pointer;
 }
