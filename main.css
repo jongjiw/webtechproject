@@ -3,69 +3,12 @@
     height: 250px;
     background: #fff;
 }
-<<<<<<< HEAD
 
-
-body{
-    
-=======
 .body{
     height: 1000px;
->>>>>>> 31a0088c3fccec83544896f00f73bca1794659bf
     margin: 0;
     background: #fff;
-    
-<<<<<<< HEAD
 }
-
-button{
-    background-color:rgba(0, 0, 0, 0.516);
-    padding: 0.5%;
-}
-nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    font-family: ek;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 4;
-}
-#box1{
-    height: 100vh;
-    width: 100%;
-    background-image: url(pic/tree.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-    
-}
-
-#box1 .social{
-    position: relative;
-}
-
-#box2{
-    padding: 4em;
-    width: 100%;
-    font-family: ek;
-    background-image: url(pic/back.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-#box2 p{
-    width: 1200px;
-    position: relative;
-=======
->>>>>>> 31a0088c3fccec83544896f00f73bca1794659bf
-}
-
 .image{
     width: 960px;
     height: 733px;
