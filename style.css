@@ -50,7 +50,7 @@ header {
 
 h1 {
     font-family: thai-sukhumbold;
-    font-size: 48px;
+    font-size: 54px;
 }
 
 .container {
@@ -155,16 +155,8 @@ footer {
     padding: 20px 15px 0 0;
 }
 
-.introduce{
-   
-}
-
 .introduce p{
     padding: 10px;
     text-align: center;
     font-size: 20px;
 }
-
-.nowpage{
-    color: red;
-  }

@@ -178,3 +178,13 @@ footer {
     height: 140px;
     background: #252525;
 }
+
+a {
+    color:inherit;
+    text-decoration: none;
+ }
+
+ a:hover {
+    color: rgb(79, 189, 79);
+    text-decoration: none;
+}
