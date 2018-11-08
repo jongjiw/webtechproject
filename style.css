@@ -1,23 +1,11 @@
 /* font */
 @font-face {
-    font-family: thai-cloud;
-    src: url("font/Cloud-Light.otf");
-}
-@font-face {
-    font-family: thai-quark;
-    src: url("font/Quark-Light.otf");
-}
-@font-face {
     font-family: thai-sukhum;
     src: url("font/sukhumvitset-thin-webfont.ttf");
 }
 @font-face {
     font-family: thai-sukhumbold;
     src: url("font/sukhumvitset-medium-webfont.ttf");
-}
-@font-face {
-    font-family: eng-paulslab;
-    src: url("font/PaulSlab-Regular-Trail.otf");
 }
 
 * {
@@ -56,7 +44,6 @@ h1 {
 .container {
     max-width: 85%;
     margin: 0px auto;
-    /* background: #96aa97; */
     backface-visibility: hidden;
 }
 

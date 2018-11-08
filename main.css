@@ -180,16 +180,6 @@ footer {
     background: #252525;
 }
 
-.contact {
-    color: white !important;
-    width: 100% !important;
-}
-
-.icon-group{
-    height: 70px; 
-    padding: 20px 15px 0 0;
-}
-
 a {
     color:inherit;
     text-decoration: none;
