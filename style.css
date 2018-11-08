@@ -50,7 +50,7 @@ header {
 
 h1 {
     font-family: thai-sukhumbold;
-    font-size: 48px;
+    font-size: 54px;
 }
 
 .container {
@@ -168,5 +168,5 @@ footer {
 }
 
 .nowpage{
-    color: red;
+    color: rgb(8, 33, 143);
   }
