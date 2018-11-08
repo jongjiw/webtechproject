@@ -143,11 +143,13 @@ footer {
     max-width: 100%;
     height: 140px;
     background: #252525;
+    
 }
 
 .contact {
     color: white !important;
     width: 100% !important;
+    text-align: center;
 }
 
 .icon-group{
