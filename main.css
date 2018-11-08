@@ -134,8 +134,18 @@ ul{
     transform: translate(-50%, -50%);
 }
 
-a{
+/* a{
     color: white;
+} */
+
+a {
+    color:inherit;
+    text-decoration: none;
+ }
+
+a:hover {
+    text-decoration: none;
+    color: rgb(79, 189, 79);
 }
 
 ul li{
