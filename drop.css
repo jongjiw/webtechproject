@@ -26,6 +26,8 @@ div.sticky {
   
   } */
 
+  
+
   .collapsible {
     color: black;
     cursor: pointer;
@@ -50,6 +52,7 @@ div.sticky {
   
   .active:after {
     content: "\2212";
+    
   }
   
   .content {
