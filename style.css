@@ -52,6 +52,11 @@ h1 {
     font-size: 54px;
 }
 
+h2.bigsubject{
+    font-size: 34px;
+    margin: 10px 0 15px 0;
+}
+
 .container {
     max-width: 85%;
     margin: 0px auto;
@@ -108,6 +113,11 @@ hr {
 
 p.subject {
     font-size: 20px;
+}
+
+p.subject b{
+    font-size: 20px;
+    color: rgb(8, 33, 143);
 }
 
 .colorsj {
